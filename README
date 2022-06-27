@@ -26,6 +26,11 @@ NOTE: This should also fix the "cannot find symbol" error that happens when you 
 === Run "clean..."
 1) On top of eclipse, run Project > clean...
 
+=== Set up SSH Key if forking this to a private repo:
+1) Follow the following instructions:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
 ====== HOW TO: ======
 
 === Run a test:
