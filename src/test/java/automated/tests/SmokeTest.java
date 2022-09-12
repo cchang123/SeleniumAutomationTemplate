@@ -19,7 +19,7 @@ public class SmokeTest {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-features=VizDisplayCompositor");
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/v105/chromedriver.exe");
 		driver = new ChromeDriver(options);
 		wait = new WebDriverWait(driver, 60000);
 	}
